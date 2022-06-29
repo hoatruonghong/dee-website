@@ -1,0 +1,92 @@
+/*9. Teacher page*/
+.learn-content .row .teacher-image{
+    position: relative;
+    padding: 20px;
+    justify-content: center;
+    align-items:flex-start;
+    display: flex;
+  }
+  .learn-content .row .teacher-image img{
+    width: 70%;
+  }
+  
+  .learn-content .content{
+    padding: 20px 40px;
+    
+  }
+  .learn-content .content .text-normal .item-note{
+    margin: auto;
+  }
+  .learn-content .list-unstyled-count-info{
+    list-style-type: none;
+    text-align: left;
+  }
+  
+  .learn-content .list-unstyled-count-info .list-count{
+    color: #29303b;
+    height: 45px;
+    padding: 0 10px;
+    border-left: 1px solid rgb(68, 66, 66);
+    display: inline-block;
+  }
+  .learn-content .list-unstyled-count-info .list-count .totalRating ul{
+    list-style-type: none;
+  }
+  .learn-content .list-unstyled-count-info .list-count .totalRating li{
+    display: inline-block;
+    color: #f5bf2a;
+  }
+  .learn-content .list-lesson{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .learn-content .list-lesson .lessons .carousel-lecture{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .learn-content .list-lesson .lessons .item-instructor{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background-color: #3498db;
+    margin: 0 10px;
+  }
+  /*.learn-content .list-lesson .lessons .item-instructor .image-teacher{
+    position: relative;
+  }*/
+  .learn-content .list-lesson .lessons .item-instructor .image-teacher img{
+    position: relative;
+    width: 100%;
+    height: 150px;
+  }
+  .learn-content .item-instructor .infor-slide{
+    position: relative;
+  }
+  .learn-content .item-instructor .infor-slide .title{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    padding: 20px 10px;
+    height: 100px;
+  }
+  .learn-content .item-instructor .infor-slide .class-price{
+    position: relative;
+    height: 40px;
+    margin: 45px 20px 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #f8b22f;
+  }
+
+  .owl-item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }

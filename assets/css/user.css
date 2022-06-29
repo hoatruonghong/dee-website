@@ -1,0 +1,14 @@
+.infoUser .header .nav-tabs{
+    width: 100%;
+}
+
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: #0086c4;
+    border-color: #0086c4;
+}
+.list-info #nav-mylaw .row .table-my-scourse .list-video .item .row .title-main .item-scourses-wp .srource-info h4{
+    text-align: justify;
+}
