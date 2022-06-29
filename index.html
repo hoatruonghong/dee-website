@@ -21,7 +21,7 @@
 <body>
     <div class="home-page">
         <div id="top-bar">
-            <div class="container top-bar-wp">
+            <div class="top-bar-wp">
                 <!-- Top bar content -->
                 <div class="row top-bar-content">
                     <div class="col-sm-2 svg-bar-content"><img src="./assets/flaticon/iconFB.svg" alt="">Electronic.Dpt.HCMUT</div>
@@ -46,31 +46,31 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <div class="navbar-nav nav-custom">
                             <div class="navigation" style="display: flex; align-items: center;">
-                                <a class="nav-item active" href="#carouselBackgroundPanner">
+                                <a class="nav-item active" href="./intro.html">
                                     <div class="nav-link link-custom">Giới thiệu<span class="sr-only">(current)</span></div>
                                 </a>
-                                <a class="nav-item" href="#about">
+                                <a class="nav-item" href="./research.html">
                                     <div class="nav-link link-custom d480-none">Nghiên cứu</div>
                                 </a>
-                                <a class="nav-item" href="#session-scourse">
+                                <a class="nav-item" href="./daotao.html">
                                     <div class="nav-link link-custom">Đào tạo</div>
                                 </a>
-                                <a class="nav-item" href="#instructor">
+                                <a class="nav-item" href="./library.html">
                                     <div class="nav-link link-custom dl-none">Thư viện</div>
                                 </a>
-                                <a>
-                                    
+                                <a class="nav-item" href="./index.html">
+                                    <img class="img-logo" src="./assets/images/hcmut.png" style="width:80px;" alt="">
                                 </a>
-                                <a class="nav-item" href="#session-contact">
+                                <a class="nav-item" href="#">
                                     <div class="nav-link link-custom d320-none">Phòng thí nghiệm</div>
                                 </a>
-                                <a class="nav-item" href="./career.html">
+                                <a class="nav-item" href="#">
                                     <div class="nav-link link-custom d320-none">Tin tức</div>
                                 </a>
-                                <a class="nav-item" href="./law.html">
+                                <a class="nav-item" href="./career.html">
                                     <div class="nav-link link-custom d320-none">Tuyển dụng</div>
                                 </a>
-                                <a class="nav-item" href="./law.html">
+                                <a class="nav-item" href="#">
                                     <div class="nav-link link-custom d320-none">Liên hệ</div>
                                 </a>
                             </div>
@@ -91,7 +91,7 @@
                                     BỘ MÔN ĐIỆN TỬ
                                 </h3>
                                 <h3 class="sub-title">KHOA ĐIỆN ĐIỆN TỬ</h3>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -114,36 +114,43 @@
         </section>
 
         <section id="about">
-            <div class="container about-wrapper">
+            <div class="about-wrapper">
                 <div class="row about-company">
                     <div class="col-lg-12">
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-2">
                                 <img src="./assets/images/Artboard1.png" alt="">
                             </div>
-                            <div class="col-lg-3" id="main-title-home">
+                            <div class="col-lg-8" id="main-title-home" style="justify-content: center; align-items: center; display: flex; flex-direction: column;">
                                 <span class="main"> GIỚI THIỆU || BỘ MÔN ĐIỆN TỬ </span>
                                 <h4 class="main">KHOA ĐIỆN ĐIỆN TỬ</h4>
                                 <h4 class="main">TRƯỜNG ĐẠI HỌC BÁCH KHOA TP.HCM</h4>
                             </div>
-                            <div class="col">
+                            <div class="col-lg-2">
                                 <img src="./assets/images/Artboard2.png" alt="">
                             </div>
                         </div>
                         
                     </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="infomation">
-                            uiafafhak 
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="infomation">
+                                <ul>
+                                    <li><a href="./research.html">Nghiên cứu</a></li>
+                                    <li><a href="./daotao.html">Đào tạo</a></li>
+    
+                                </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="hse-image">
-                                <img src="./assets/images/Tree.png" alt="" srcset="">
+                            <div class="col-lg-6">
+                                <div class="hse-image">
+                                    <img src="./assets/images/Tree.png" alt="" srcset="">
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -192,9 +199,31 @@
                 </div>
             </div>
         </section>
-        <section id="instructor" class="top-instructor">
+        
+        <div id="sesion-partner">
             <div id="main-title-home">
                 <h4 class="main">Doanh nghiệp đồng hành</h4>
+                <p><b>Các doanh nghiệp đồng hành cùng khoa</b></p>
+            </div>
+            <div class="owl-carousel owl-theme container carousel-partner">
+                <div class="img-partner">
+                    <img src="./assets/images/hcmut.png" style="width:100px; "alt="">
+                </div>
+                <div class="img-partner">
+                    <img src="./assets/images/hcmut.png" style="width:100px; " alt="">
+                </div>
+                <div class="img-partner">
+                    <img src="./assets/images/hcmut.png" style="width:100px; " alt="">
+                </div>
+                <div class="img-partner">
+                    <img src="./assets/images/hcmut.png" style="width:100px; " alt="">
+                </div>
+            </div>
+        </div>
+
+        <section id="instructor" class="top-instructor">
+            <div id="main-title-home">
+                <h4 class="main">Tin tức thông báo</h4>
             </div>
             <div class="owl-carousel owl-theme carousel-instructor container">
                 <div class="item-instructor">
@@ -203,8 +232,8 @@
                     </div>
                     <div class="infor-slide">
                         <div class="title">
-                            <span class="name">Nguyễn Văn A</span>
-                            <span class="level">Thạc sĩ</span>
+                            <span class="name">ABC INC.</span>
+                            <span class="level">25/06/2022</span>
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -215,8 +244,8 @@
                     </div>
                     <div class="infor-slide">
                         <div class="title">
-                            <span class="name">Nguyễn Văn A</span>
-                            <span class="level">Thạc sĩ</span>
+                            <span class="name">ABC INC.</span>
+                            <span class="level">25/06/2022</span>
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -227,8 +256,8 @@
                     </div>
                     <div class="infor-slide">
                         <div class="title">
-                            <span class="name">Nguyễn Văn A</span>
-                            <span class="level">Thạc sĩ</span>
+                            <span class="name">ABC INC.</span>
+                            <span class="level">25/06/2022</span>
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -239,8 +268,8 @@
                     </div>
                     <div class="infor-slide">
                         <div class="title">
-                            <span class="name">Nguyễn Văn A</span>
-                            <span class="level">Thạc sĩ</span>
+                            <span class="name">ABC INC.</span>
+                            <span class="level">25/06/2022</span>
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -251,8 +280,8 @@
                     </div>
                     <div class="infor-slide">
                         <div class="title">
-                            <span class="name">Nguyễn Văn A</span>
-                            <span class="level">Thạc sĩ</span>
+                            <span class="name">ABC INC.</span>
+                            <span class="level">25/06/2022</span>
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -263,8 +292,8 @@
                     </div>
                     <div class="infor-slide">
                         <div class="title">
-                            <span class="name">Nguyễn Văn A</span>
-                            <span class="level">Thạc sĩ</span>
+                            <span class="name">ABC INC.</span>
+                            <span class="level">25/06/2022</span>
                         </div>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
@@ -272,33 +301,9 @@
             </div>
         </section>
 
-        <div id="sesion-partner">
-            <div id="main-title-home">
-                <h4 class="main">Tin tức thông báo</h4>
-            </div>
-            <div class="owl-carousel carousel-partner">
-                <div class="img-partner">
-                    <img src="./assets/images/partner_1.jpg" alt="">
-                </div>
-                <div class="img-partner">
-                    <img src="./assets/images/partner_2.jpg" alt="">
-                </div>
-                <div class="img-partner">
-                    <img src="./assets/images/partner_3.png" alt="">
-                </div>
-                <div class="img-partner">
-                    <img src="./assets/images/partner_4.jpg" alt="">
-                </div>
-                <div class="img-partner">
-                    <img src="./assets/images/partner_4.png" alt="">
-                </div>
-            </div>
-        </div>
-
         <section id="session-contact">
             <div class="container">
-                <div class="row">
-                    
+                <div class="row">                    
                     <div class="col-lg-12">
                         <div class="contact-form">
                             <div id="main-title-home">

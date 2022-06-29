@@ -2581,7 +2581,7 @@ ul li {
 }
 
 .home-page .top-instructor {
-  background-color: #e6e9f15c;
+  background-color: #ffffff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -2973,7 +2973,7 @@ ul li {
 .home-page #session-contact {
   padding-top: 50px;
   padding-bottom: 30px;
-  background-color: #e6e9f15c;
+  background-color: #ffffff;
 }
 
 .home-page #session-contact #main-title-home {
@@ -3497,7 +3497,7 @@ ul li {
     margin-bottom: 0;
   }
   .home-page #carouselBackgroundPanner .item-carousel-first .box-inner .main-title {
-    font-size: 37px;
+    font-size: 30px;
     padding-bottom: 0;
   }
   .home-page #carouselBackgroundPanner .item-carousel-first .box-inner .main-title .item-sub {
