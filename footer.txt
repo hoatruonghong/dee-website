@@ -1,0 +1,32 @@
+<!-- Footer Section Start -->
+        <footer class="section-pt bg-color-5">
+            <div class="footer-widget-area pb-60">
+                <div>
+                    <div class="row">                        
+                        <div class="col-xs-12 col-sm-6 col-md-2 mobi-mb-50 tab-mb-50">
+                            <img src="./assets/img/home/lgodt.png" style="width:80%" alt="">
+                        </div>
+                        <!-- /.Widget end -->
+                        <div class="col-xs-12 col-sm-6 col-md-8 mobi-mb-50 text-center">
+                            <h4><b>BỘ MÔN ĐIỆN TỬ - KHOA ĐIỆN ĐIỆN TỬ - TRƯỜNG ĐẠI HỌC BÁCH KHOA TPHCM</b></h4>
+                            <h5>Địa chỉ: Phòng 201-B3, 268 Lý Thường Kiệt, Phường 14, Quận 10, TP>HCM</h5>
+                            <h5>Email: bmdt@hcmut.edu.vn</h5>
+                            <h5>Website: http://doe.dee.hcmt.edu.vn</h5>
+                        
+                        </div>
+                        <!-- /.Widget end -->
+                        <div class="col-xs-12 col-sm-6 col-md-2">
+                            <img src="./assets/img/home/hcmut.png" style="width:70%" alt="">
+                        </div>
+                        <!-- /.Widget end -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.Widget Area End -->
+            <div class="divide">
+                
+            </div>            
+        </footer>
+        <!-- Footer Section End -->
