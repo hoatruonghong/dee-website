@@ -641,6 +641,7 @@ h6 {
 }
 .font-60{
 	font-size: 60px;
+  font-weight: 900;
 }
 .font-70{
 	font-size: 70px;
@@ -730,6 +731,10 @@ h6 {
 }
 .bg-img-intro{
   background-image: url("../img/intro/banner.jpg");
+  background-size: cover;
+}
+.bg-img-research{
+  background-image: url("../img/research/banner.jpg");
   background-size: cover;
 }
 /* background gradient 
