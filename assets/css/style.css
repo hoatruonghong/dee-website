@@ -463,6 +463,9 @@ h6 {
 .pt-80{
 	padding-top: 80px;
 }
+.pt-280{
+	padding-top: 200px;
+}
 /* Screen Support */
 @media screen and (max-width: 767px) {
 	.pt-60,
@@ -628,9 +631,13 @@ h6 {
 		padding-right: 10px;
 	}
 }
-
+.font-20{
+  font-size: 20px;
+  font-weight: 500;
+}
 .font-50{
 	font-size: 50px;
+  font-weight: 900;
 }
 .font-60{
 	font-size: 60px;
