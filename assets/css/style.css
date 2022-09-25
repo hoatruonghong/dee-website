@@ -3862,11 +3862,38 @@ footer .footer-widget-area h5{
 }
 
 /*=========== [Homepage] =============================================*/
-@media screen and (min-width: 767px) {
-  .dropdown-item{
-    height: 80px;
+@media screen and (min-width: 767px) {  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content .dropdown-item:hover{
+    background-color: #f1f1f1;
+  }
+  .dropdown-content a {
+    height: 70px;
+    color: black;
     margin-left: 10px;
+    text-decoration: none;
+    display: block;
     text-align: justify;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
   }
 }
 /*====================================================================
