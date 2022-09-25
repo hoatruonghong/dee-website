@@ -67,7 +67,18 @@
                                     <div id="navbar" class="navbar-collapse collapse no-padding">
                                         <ul class="navbar-nav dropdown">                 
                                             <li><a href="./index.html"><img src="./assets/img/icons/home.png" style="width:30px"></a></li>     
-                                            <li><a href="./introduction.html">Giới thiệu</a></li>
+                                            <li>
+                                                <div class="dropdown show">
+                                                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                      Giới thiệu
+                                                    </a>                                                  
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                      <a class="dropdown-item" href="./introduction.html">Lịch sử</a>
+                                                      <a class="dropdown-item" href="./introduction.html">Định hướng</a>
+                                                      <a class="dropdown-item" href="./human.html">Nhân sự</a>
+                                                    </div>
+                                                  </div>
+                                            </li>
                                             <li><a href="./research.html">Nghiên cứu</a></li>
                                             <li><a href="./education.html">Đào tạo</a></li>
                                             <li><a href="./library.html">Thư viện</a></li>
@@ -75,8 +86,9 @@
                                             <li><a href="./lab.html">Phòng thí nghiệm</a></li>
                                             <li><a href="./news.html">Tin tức</a></li>
                                             <li><a href="./career.html">Tuyển dụng</a></li>
-                                            <li><a href="./contact.html">Liên hệ</a></li>
+                                            <li><a href="./contact.html">Liên hệ</a></li>                                            
                                         </ul>
+                                        
                                     </div>
                                     <!--/.nav-collapse -->
                                 </nav>                                
@@ -94,7 +106,11 @@
             <div id="mainslider">
                 <div class="swiper-wrapper">
                     <div class="single-item swiper-slide">
-                        <img src="assets/img/home/home3.jpg" style="width:100%" alt="Slider Image" />
+                        <img src="assets/img/home/home1.jpg" style="width:100%" alt="Slider Image" />
+                    </div>
+                    <!-- /.Item End -->
+                    <div class="single-item swiper-slide">
+                        <img src="assets/img/home/home2.png" style="width:100%" alt="Slider Image" />
                         <div class="slider-caption">
                             <div class="container">
                                 <h2 class="white-color font-40 mb-20 hidden-xs rt-effect delay-1">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐHQG TPHCM</h2>
@@ -108,13 +124,19 @@
                     </div>
                     <!-- /.Item End -->
                     <div class="single-item swiper-slide">
-                        <img src="assets/img/home/home1.jpg" style="width:100%" alt="Slider Image" />
+                        <img src="assets/img/home/home3.jpg" style="width:100%" alt="Slider Image" />
+                        <div class="slider-caption">
+                            <div class="container">
+                                <h2 class="white-color font-40 mb-20 hidden-xs rt-effect delay-1">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐHQG TPHCM</h2>
+                                <h1 class="white-color font-60 mb-20 rt-effect-height delay-2">BỘ MÔN ĐIỆN TỬ</h1>
+                                <div class="rt-effect-btn rt-effect delay-4">
+                                    <div class="slide-btn" ><h3 class="white-color mb-5 ">KHOA ĐIỆN ĐIỆN TỬ</h3></div>
+                                </div>
+                            </div>
+                            <!-- /.container -->
+                        </div>
                     </div>
-                    <!-- /.Item End -->
-                    <div class="single-item swiper-slide">
-                        <img src="assets/img/home/home2.png" style="width:100%" alt="Slider Image" />
-                    </div>
-                    <!-- /.Item End -->
+                    <!-- /.Item End --> 
                 </div>
                 <!-- Add Arrows -->
                 <div class="swiper-next swiper-arrow"><i class="next zmdi zmdi-chevron-right"></i></div>
