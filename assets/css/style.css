@@ -2427,6 +2427,7 @@ footer .side-wrapper{
 .widget-box .rt-member {
   cursor: move;
   padding: 45px 25px 70px;
+  height: 480px;
 }
 .widget-box .rt-member::after {
   display: none;
@@ -3894,8 +3895,16 @@ footer .footer-widget-area h5{
   }
   .dropdown:hover .dropdown-content {
     display: block;
-  }
+  }  
 }
+/*=========== [Research] =============================================*/
+.research-working .section-title{
+  background-color: #262262;
+  width: 70%;
+  height: 80px;
+}
+
+
 /*====================================================================
 							[ END ]
 ======================================================================*/
